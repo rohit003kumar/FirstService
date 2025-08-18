@@ -149,7 +149,7 @@ app.use(compression());
 
 const allowedOrigins = [
   "http://localhost:5173", // dev
-   // deployed frontend
+
   "https://firstservice-1.onrender.com", // add your actual frontend URL
   process.env.FRONTEND_URL // from environment variable
 ].filter(Boolean); // remove undefined values
